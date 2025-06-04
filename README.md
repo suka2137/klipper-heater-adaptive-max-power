@@ -31,3 +31,4 @@ temp_points:
   105, 0.25
   110, 0.0
  ```
+The max powers are absolute and will override the value set in the heater config. Klipper's PID control limits, not scales (that's good), the value to max_power, so it can be changed without affecting stability.
